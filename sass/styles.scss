@@ -1,0 +1,226 @@
+* { 
+	background-color: aliceblue;
+	/*border: 1px solid black;*/
+}
+
+#pageContainer {
+  margin: 0 auto;
+	height: 1000px;
+	width: 1000px;
+}
+
+#header {
+	/*! 
+ * Flow - A Fully Fluid Responsive Grid System
+ * Created by Isaac Gray
+ *
+ * Generate a grid at http://flow.gs
+ */
+ 
+.section {
+	clear: both;
+	padding: 0;
+	margin: 0;
+	margin-left: -0.5em;
+}
+
+.col {
+	display: block;
+	float:left;
+	width: 100%;
+	box-sizing: border-box; /* Supported by IE 8+. If IE 7 and below support is required see http://html5please.com/#box-sizing */
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	background-clip: padding-box; /* This allows column elements to have background colour without it bleeding into the gutter. Supported by IE 9+. If support for IE 8 and below is required, a content div with background colour should be placed inside the column */
+	-moz-background-clip: padding-box;
+	-webkit-background-clip: padding-box;
+	margin: 0 0 0.5em 0;
+	border-left: 0.5em solid transparent;
+}
+
+.group:before,
+.group:after {
+	content:"";
+	display:table;
+}
+
+.group:after {
+	clear:both;
+}
+
+	@media only screen and (min-width:480px) {
+
+		.col {
+			width: auto;
+		}
+
+		.s1{ 
+			width: 33.33%; 
+			height: 200px;
+		}
+
+		.s2{ 
+			width: 33.33%;
+			height: 200px; 
+			text-align: center;
+
+			img{
+				height: 200px;
+			}
+		}
+
+		.s3{ 
+			width: 33.33%;
+			height: 200px; 
+			text-align: center;
+
+						/*! 
+			 * Flow - A Fully Fluid Responsive Grid System
+			 * Created by Isaac Gray
+			 *
+			 * Generate a grid at http://flow.gs
+			 */
+			 
+			.section {
+				clear: both;
+				padding: 0;
+				margin: 0;
+				margin-left: -0.5em;
+			}
+
+			.col {
+				display: block;
+				float:left;
+				width: 100%;
+				box-sizing: border-box; /* Supported by IE 8+. If IE 7 and below support is required see http://html5please.com/#box-sizing */
+				-moz-box-sizing: border-box;
+				-webkit-box-sizing: border-box;
+				background-clip: padding-box; /* This allows column elements to have background colour without it bleeding into the gutter. Supported by IE 9+. If support for IE 8 and below is required, a content div with background colour should be placed inside the column */
+				-moz-background-clip: padding-box;
+				-webkit-background-clip: padding-box;
+				margin: 0 0 0.5em 0;
+				border-left: 0.5em solid transparent;
+			}
+
+			.group:before,
+			.group:after {
+				content:"";
+				display:table;
+			}
+
+			.group:after {
+				clear:both;
+			}
+
+				@media only screen and (min-width:480px) {
+
+					.col {
+						width: auto;
+					}
+
+					.s1{ 
+						width: 33.33%; 
+						height: 100px;
+
+						img{
+							height: 100px;
+						}
+					}
+
+					.s2{ 
+						width: 33.33%;
+						height: 100px;
+
+						img{
+							height: 100px;
+						}
+					}
+
+					.s3{ 
+						width: 33.33%;
+						height: 100px;
+
+						img{
+							height: 100px;
+						}
+					}
+				}
+		}
+	}
+
+}
+
+#middle {
+	height: 400px;
+}
+
+#threeCol {
+	/*! 
+ * Flow - A Fully Fluid Responsive Grid System
+ * Created by Isaac Gray
+ *
+ * Generate a grid at http://flow.gs
+ */
+ 
+.section {
+	clear: both;
+	padding: 0;
+	margin: 0;
+	margin-left: -0.5em;
+}
+
+.col {
+	display: block;
+	float:left;
+	width: 100%;
+	box-sizing: border-box; /* Supported by IE 8+. If IE 7 and below support is required see http://html5please.com/#box-sizing */
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	background-clip: padding-box; /* This allows column elements to have background colour without it bleeding into the gutter. Supported by IE 9+. If support for IE 8 and below is required, a content div with background colour should be placed inside the column */
+	-moz-background-clip: padding-box;
+	-webkit-background-clip: padding-box;
+	margin: 0 0 0.5em 0;
+	border-left: 0.5em solid transparent;
+}
+
+.group:before,
+.group:after {
+	content:"";
+	display:table;
+}
+
+.group:after {
+	clear:both;
+}
+
+	@media only screen and (min-width:480px) {
+
+		.col {
+			width: auto;
+		}
+
+		.s1{ 
+			width: 33.33%; 
+			height: 600px;
+		}
+
+		.s2{ 
+			width: 33.33%;
+			height: 600px; 
+		}
+
+		.s3{ 
+			width: 33.33%;
+			height: 600px; 
+		}
+	}
+
+}
+
+#nextSection {
+	height: 800px;
+}
+
+#footer {
+	height: 400px;
+}
