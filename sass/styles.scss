@@ -256,6 +256,22 @@
 
 #nextSection {
 	height: 800px;
+
+	#carousel {
+		border: 1px solid black;
+		position: relative;
+
+		img {
+			width: 750px;
+			height: 530px;
+			position: absolute;
+			z-index: 1;
+		}
+
+		img.active {
+			z-index: 3;
+		}
+	}
 }
 
 #footer {
