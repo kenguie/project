@@ -10,6 +10,27 @@
 }
 
 #header {
+
+	#leaderB {
+		height: 100px;
+		
+		#leaderAd {
+			height: 90px;
+			width: 720px;
+			border: solid 1px black;
+			margin: 0 auto;
+		}
+	}
+
+	#titleBox {
+		height: 200px;
+
+		#title h1 {
+			text-align: center;
+			font-size: 5em;
+		}
+	}
+
 	/*! 
  * Flow - A Fully Fluid Responsive Grid System
  * Created by Isaac Gray
@@ -56,12 +77,18 @@
 
 		.s1{ 
 			width: 33.33%; 
-			height: 200px;
+			height: 300px;
+
+			#astroCat img {
+				height: 300px;
+				width: 350px;
+				opacity: .8;
+			}
 		}
 
 		.s2{ 
 			width: 33.33%;
-			height: 200px; 
+			height: 300px; 
 			text-align: center;
 
 			img{
@@ -71,7 +98,7 @@
 
 		.s3{ 
 			width: 33.33%;
-			height: 200px; 
+			height: 300px; 
 			text-align: center;
 
 						/*! 
@@ -152,6 +179,15 @@
 
 #middle {
 	height: 400px;
+	text-align: center;
+
+	#about h3 {
+		font-size: 2.0em;
+	}
+
+	#about p {
+		font-size: 1.25em;
+	}
 }
 
 #threeCol {

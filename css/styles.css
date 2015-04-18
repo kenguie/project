@@ -14,6 +14,18 @@
    *
    * Generate a grid at http://flow.gs
    */ }
+  #header #leaderB {
+    height: 100px; }
+    #header #leaderB #leaderAd {
+      height: 90px;
+      width: 720px;
+      border: solid 1px black;
+      margin: 0 auto; }
+  #header #titleBox {
+    height: 200px; }
+    #header #titleBox #title h1 {
+      text-align: center;
+      font-size: 5em; }
   #header .section {
     clear: both;
     padding: 0;
@@ -44,16 +56,20 @@
       width: auto; }
     #header .s1 {
       width: 33.33%;
-      height: 200px; }
+      height: 300px; }
+      #header .s1 #astroCat img {
+        height: 300px;
+        width: 350px;
+        opacity: .8; }
     #header .s2 {
       width: 33.33%;
-      height: 200px;
+      height: 300px;
       text-align: center; }
       #header .s2 img {
         height: 200px; }
     #header .s3 {
       width: 33.33%;
-      height: 200px;
+      height: 300px;
       text-align: center;
       			/*! 
        * Flow - A Fully Fluid Responsive Grid System
@@ -106,7 +122,12 @@
         height: 100px; } }
 
 #middle {
-  height: 400px; }
+  height: 400px;
+  text-align: center; }
+  #middle #about h3 {
+    font-size: 2.0em; }
+  #middle #about p {
+    font-size: 1.25em; }
 
 #threeCol {
   	/*! 
