@@ -258,14 +258,16 @@
 	height: 800px;
 
 	#carousel {
-		border: 1px solid black;
 		position: relative;
+		height: 600px;
 
 		img {
 			width: 750px;
 			height: 530px;
 			position: absolute;
 			z-index: 1;
+			left: 50%;
+			margin-left: -375px;
 		}
 
 		img.active {

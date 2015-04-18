@@ -32,6 +32,7 @@ function carousel() {
         $next.css('z-index', 3).addClass('active'); //make the next image the top one
     });
 }
+
 $(document).ready(function() {
 
 setInterval('carousel()', 3000);
