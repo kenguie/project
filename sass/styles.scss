@@ -81,7 +81,7 @@
 
 			#astroCat img {
 				height: 300px;
-				width: 350px;
+				width: 300px;
 				opacity: .8;
 			}
 		}
@@ -248,6 +248,7 @@
 		.s3{ 
 			width: 33.33%;
 			height: 600px; 
+			border: 1px solid black;
 		}
 	}
 
@@ -259,4 +260,17 @@
 
 #footer {
 	height: 400px;
+
+	#footerAd {
+		height: 90px;
+		width: 720px;
+		margin: 0 auto;
+		border: 1px solid black;
+		margin-top: 20px;
+		margin-bottom: 20px;
+	}
+
+	#footerMenus {
+
+	}
 }

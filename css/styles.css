@@ -59,7 +59,7 @@
       height: 300px; }
       #header .s1 #astroCat img {
         height: 300px;
-        width: 350px;
+        width: 300px;
         opacity: .8; }
     #header .s2 {
       width: 33.33%;
@@ -172,12 +172,20 @@
       height: 600px; }
     #threeCol .s3 {
       width: 33.33%;
-      height: 600px; } }
+      height: 600px;
+      border: 1px solid black; } }
 
 #nextSection {
   height: 800px; }
 
 #footer {
   height: 400px; }
+  #footer #footerAd {
+    height: 90px;
+    width: 720px;
+    margin: 0 auto;
+    border: 1px solid black;
+    margin-top: 20px;
+    margin-bottom: 20px; }
 
 /*# sourceMappingURL=styles.css.map */
