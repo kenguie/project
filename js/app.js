@@ -23,6 +23,8 @@
 	// }, 3000);
 //------------------- end homemade carousel --------------------//
 
+//var time = rightNow.toString();
+
 function carousel() {
     var $active = $('#carousel .active');
     var $next = ($active.next().length > 0) ? $active.next() : $('#carousel img:first');
@@ -36,6 +38,12 @@ function carousel() {
 $(document).ready(function() {
 
 setInterval('carousel()', 3000);
+
+$.get("http://ipinfo.io", function (response) {
+    $("#city-state").html("Weather in: " + response.city + ", " + response.region);
+}, "jsonp");
+
+$("#time").html("At: " + time );
 
 
 });
